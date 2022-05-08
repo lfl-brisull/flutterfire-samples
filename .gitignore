@@ -30,6 +30,11 @@
 .pub-cache/
 .pub/
 /build/
+debug.keystore
+# google-services.json
+# firebase_options.dart
+
+.vscode/settings.json
 
 # Web related
 lib/generated_plugin_registrant.dart
