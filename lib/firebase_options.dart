@@ -60,7 +60,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '336619668827',
     projectId: 'brisull-lfl-flutterfile',
     storageBucket: 'brisull-lfl-flutterfile.appspot.com',
-    iosClientId: '336619668827-a57a0mq0imdqpfriabn1eo8rflkp5aks.apps.googleusercontent.com',
+    iosClientId:
+        '336619668827-a57a0mq0imdqpfriabn1eo8rflkp5aks.apps.googleusercontent.com',
     iosBundleId: 'com.souvikbiswas.flutterfireExamples',
   );
 }

@@ -40,22 +40,29 @@
       });
     }
   </script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
   <!-- Firebase Configuration -->
-  <script>
-    var firebaseConfig = {
-      apiKey: "AIzaSyBIXxQgUPYDU2srK_UpgjiTATON5rrdMd0",
-      authDomain: "flutterfire-samples.firebaseapp.com",
-      projectId: "flutterfire-samples",
-      storageBucket: "flutterfire-samples.appspot.com",
-      messagingSenderId: "132381301913",
-      appId: "1:132381301913:web:f0d0a643bc90bed91eec08",
-      measurementId: "G-ZK5194H8VH"
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBO2SWd5Bp4HxDUggJed4O_YSJ-oItLIrI",
+      authDomain: "brisull-lfl-flutterfile.firebaseapp.com",
+      projectId: "brisull-lfl-flutterfile",
+      storageBucket: "brisull-lfl-flutterfile.appspot.com",
+      messagingSenderId: "336619668827",
+      appId: "1:336619668827:web:4d031f532b23f781ebc67e",
+      measurementId: "G-N0WZP380XT"
     };
+  
     // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
